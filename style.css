@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 2px solid red; */
+}
+.container{
+    height: 100vh;
+}
+.twitter {
+    background-color: #42AEEC !important;
+    color: #fff !important;
+    padding: 5px 120px !important;
+}
+.twitter:hover{
+    background-color: #42aeecc5 !important;
+    transition: 0.3s all ease;
+}
+.account:hover{
+    background-color: #42aeecc5 !important;
+    transition: 0.3s all ease;
+}
+.facebook:hover{
+    background-color: #405e9dbc !important;
+    transition: 0.3s all ease;
+}
+.account{
+    background-color: #42AEEC !important;
+    color: #fff !important;
+    padding: 5px 130px !important;
+    border: none;
+    font-size: 18px;
+}
+.facebook {
+    background-color: #405D9D !important;
+    color: #fff !important;
+    padding: 5px 110px !important;
+}
+p:before{
+    height: 1px;
+    width: 130px;
+    display: inline-block;
+    background-color: #7a7a7a !important;
+    content: "";
+    margin: 0px 5px 3px;
+}
+p:after{
+    height: 1px;
+    width: 130px;
+    display: inline-block;
+    background-color: #7a7a7a !important;
+    content: "";
+    margin: 0px 5px 3px;
+}
